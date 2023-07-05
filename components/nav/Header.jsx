@@ -17,14 +17,12 @@ const Header = () => {
         </Link>
         <a
           href="https://twitter.com/sohelcse1999"
-          target="_blank"
           className="px-4 text-xl  hover:underline"
         >
           Twitter
         </a>
         <a
           href="https://github.com/mdsohelmia"
-          target="_blank"
           className="px-4 text-xl  hover:underline"
         >
           Github

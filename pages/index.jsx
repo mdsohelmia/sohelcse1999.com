@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="px-48 container mx-auto mt-12">
