@@ -1,13 +1,10 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="px-48 container mx-auto mt-12">
       <div className="flex space-x-12">
         <div>
-          <img
-            src="me1.jpg"
-            className="w-40 h-40 object-cover rounded cursor-pointer filter grayscale hover:grayscale-0"
-            alt="Sohel"
-          />
+          <Image src="me1.jpg" alt="me" width={200} height={200} />
         </div>
         <div className="flex-1 flex">
           Hi, my name is Sohel Mia. I am a software engineer and one of the
