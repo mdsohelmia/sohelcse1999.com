@@ -1,26 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* CSS */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+	font-family: 'Fira Code', monospace;
+	color: #a89984;
+	@apply h-screen w-full text-base bg-gruvbox-bg-dark-hard;
+
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@supports (font-variation-settings: normal) {
+	html { font-family: 'Fira Code VF', monospace; }
   }
-  body {
-    color: white;
-    background: black;
-  }
-}
